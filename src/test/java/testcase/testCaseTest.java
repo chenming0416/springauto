@@ -10,7 +10,7 @@ import static org.testng.Assert.*;
 public class testCaseTest {
     @Test
     public void beforeclass(){
-        System.out.println("2222222222222000");
+        System.out.println("2222222222222000222");
     }
     @BeforeMethod
     public void setUp() {

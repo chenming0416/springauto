@@ -10,7 +10,7 @@ public class testCaseTest2 {
 
     @Test
     public void test2(){
-        System.out.println("testCase2 ");
+        System.out.println("testCase222 ");
     }
     @BeforeMethod
     public void setUp() {
