@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="idea git test">
+    <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcase/testCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcase/testCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcase/testCaseTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcase/testCaseTest2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -45,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="182">
               <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="e#289#290#0" expanded="true" />
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            <state relative-caret-position="-383">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="729">
               <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
@@ -174,6 +176,21 @@
               <item name="springauto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springauto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springauto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
@@ -304,7 +321,10 @@
       <workItem from="1585115496744" duration="3019000" />
       <workItem from="1585119419187" duration="6401000" />
       <workItem from="1585133001637" duration="806000" />
-      <workItem from="1585183200411" duration="3101000" />
+      <workItem from="1585183200411" duration="3587000" />
+      <workItem from="1585204431682" duration="43000" />
+      <workItem from="1585204501597" duration="93000" />
+      <workItem from="1585213531652" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="idea git test">
       <created>1585133438047</created>
@@ -320,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585199976545</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="idea git test">
+      <created>1585202143014</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585202143014</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -339,15 +366,27 @@
     <history-entry file="testCaseTest2_test2 - 2020.03.26 at 13h 52m 18s.xml">
       <configuration name="testCaseTest2.test2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="testCaseTest2_test2 - 2020.03.26 at 13h 54m 59s.xml">
+      <configuration name="testCaseTest2.test2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testCaseTest2_test2 - 2020.03.26 at 14h 36m 18s.xml">
+      <configuration name="testCaseTest2.test2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testCaseTest2_test2 - 2020.03.27 at 13h 07m 12s.xml">
+      <configuration name="testCaseTest2.test2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testCaseTest2_test2 - 2020.03.27 at 13h 12m 45s.xml">
+      <configuration name="testCaseTest2.test2" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13327000" />
+    <option name="totallyTimeSpent" value="15490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4573379" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4573379" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,27 +422,16 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="idea git test" />
     <MESSAGE value="add chromedriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chromedriver" />
+    <MESSAGE value="idea git test" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea git test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/autoweb.iml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCaseTest.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="729">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -425,24 +453,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        <state relative-caret-position="-383">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
