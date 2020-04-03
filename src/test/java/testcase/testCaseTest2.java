@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,6 +13,8 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class testCaseTest2 {
+
+    private static final Logger logger = LoggerFactory.getLogger(testCaseTest2.class.getName());// slf4j记录器
 
     @Test
     public void test2(){
@@ -30,6 +34,7 @@ public class testCaseTest2 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        logger.debug("this is slf4j message");
         String aa = driver.findElement(By.xpath("//*[@id='container']/div[2]/div/div[2]/span")).getText();
         System.out.println(aa);
         System.out.println("testCase222 ");
