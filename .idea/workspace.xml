@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/EventListenerLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/casedata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/locator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcase/testCaseTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcase/testCaseTest2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/common/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="464">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -330,7 +322,7 @@
       <workItem from="1585204501597" duration="93000" />
       <workItem from="1585213531652" duration="1886000" />
       <workItem from="1585287650487" duration="3092000" />
-      <workItem from="1585881799468" duration="4594000" />
+      <workItem from="1585881799468" duration="4838000" />
     </task>
     <task id="LOCAL-00001" summary="idea git test">
       <created>1585133438047</created>
@@ -360,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585286526492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="process xml xlsx driverlister">
+      <created>1585894139053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585894139053</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -396,11 +395,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23521000" />
+    <option name="totallyTimeSpent" value="23765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,7 +439,8 @@
     <MESSAGE value="add chromedriver" />
     <MESSAGE value="idea git test" />
     <MESSAGE value="add Headless Browser,增加无头浏览器" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Headless Browser,增加无头浏览器" />
+    <MESSAGE value="process xml xlsx driverlister" />
+    <option name="LAST_COMMIT_MESSAGE" value="process xml xlsx driverlister" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/autoweb.iml" />
@@ -523,8 +522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/common/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="464">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
