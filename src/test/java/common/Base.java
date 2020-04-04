@@ -2,6 +2,9 @@ package common;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -26,6 +29,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,23 +41,28 @@ public class Base {
 	public static final String locatorfile = "src/test/resources/locator.xml";
 	public static final String casedatafile = "src/test/resources/data.xml";
 	public static final String caseDataExcel = "src/test/resources/casedata.xlsx";
-//	public static final String chromedriverfile = "C:\\Users\\Administrator\\Desktop\\work\\chromedriver1.exe";
 	public static final String chromedriverfile = "src/test/resources/chromedriver.exe";
-	// 截图  E:\\workspace\\screenshot.png 使用的时候再加图片
-	// \\workspace\\screenshot.png  保存在workspace所在盘符的根目录下
-	public static final String savescreenshot = "D:\\home\\mi2\\logs\\";
+	public static final String savescreenshot = "src/test/out/";
 	// slf4j日志记录器
 	private static final Logger log = LoggerFactory.getLogger(Base.class);
-	private  static WebDriver driver = getSingleDriver();
+	public  WebDriver driver = getSingleDriver();
 
 	/*
 	 * 执行完后，任务管理器中会有浏览器进程和驱动的进程，直接杀掉
+	 * 需要传systemtype:windows，linux
 	 */
-	public static void killBrowser(){
+	public  void killBrowser(String systemtype){
 		 Runtime runtime = Runtime.getRuntime();
 		  try {
-			runtime.exec("tskill chrome");
-			runtime.exec("tskill chromedriver");
+		  	if (systemtype.contains("win")) {
+				runtime.exec("tskill chrome");
+				runtime.exec("tskill chromedriver");
+				System.out.println("this is windwos");
+			}else {
+				runtime.exec("tskill chrome");
+				runtime.exec("tskill chromedriver");
+				System.out.println("this is linux");
+			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -63,10 +72,17 @@ public class Base {
 	/*
 	 *  取得浏览器对象
 	 */
-	private static WebDriver getSingleDriver(){
+	private  WebDriver getSingleDriver(){
 		System.setProperty("webdriver.chrome.driver",chromedriverfile);
-		//	WebDriver driver = new ChromeDriver();
-			WebDriver driver = new EventFiringWebDriver(new ChromeDriver()).register(new EventListenerLog());
+		//创建无Chrome无头参数
+		ChromeOptions chromeOptions=new ChromeOptions();
+		chromeOptions.addArguments("-headless");
+		// 创建Drive实例，无头浏览器
+		WebDriver noheaddriver = new ChromeDriver(chromeOptions);
+		// 有头浏览器
+		//	WebDriver headdriver = new ChromeDriver();
+		// 注册监听器
+		WebDriver driver = new EventFiringWebDriver(noheaddriver).register(new EventListenerLog());
 		// 隐式等待8秒钟，超时定位元素失败，是全局变量
 		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -281,21 +297,24 @@ public class Base {
 
 	}
 
-//	/*
-//	 * 截图
-//	 */
-//	public  void saveScreenshot(WebDriver driver){
-//		 File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-//		//利用FileUtils工具类的copyFile()方法保存getScreenshotAs()返回的文件对象。
-//		 try {
-//			 // \\workspace\\screenshot.png  保存在workspace所在盘符的根目录下
-//			 // E:\\workspace\\screenshot.png
-//					FileUtils.copyFile(srcFile, new File(savescreenshot+"screenshot.png"));
-//					System.out.println("OK");
-//				} catch (IOException e) {
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
-//	}
+	/*
+	 * 截图
+	 */
+	public static void saveScreenshot(WebDriver driver,String methodname){
+		 File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		//利用FileUtils工具类的copyFile()方法保存getScreenshotAs()返回的文件对象。
+		 try {
+			 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+			 // 日期时间转字符串
+			 LocalDateTime time = LocalDateTime.now();
+			 String timestr = time.format(formatter);
+			 String pngpathstr = savescreenshot+methodname+timestr+".png";
+			 FileUtils.copyFile(srcFile, new File(pngpathstr));
+			 log.debug(pngpathstr);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	}
 
 }

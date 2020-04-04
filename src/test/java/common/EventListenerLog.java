@@ -5,8 +5,13 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class EventListenerLog implements WebDriverEventListener {
+    // slf4j日志记录器
+    private static final Logger log = LoggerFactory.getLogger(EventListenerLog.class);
+
     @Override
     public void beforeAlertAccept(WebDriver webDriver) {
 
@@ -119,8 +124,9 @@ public class EventListenerLog implements WebDriverEventListener {
 
     @Override
     public void onException(Throwable throwable, WebDriver webDriver) {
-
-    }
+        log.debug("lister is running");
+        Base.saveScreenshot(webDriver,"exceptionstr");
+}
 
     @Override
     public <X> void beforeGetScreenshotAs(OutputType<X> outputType) {
