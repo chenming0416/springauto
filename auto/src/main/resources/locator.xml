@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locaotr>
+	<contextLoads>
+		<百度搜索文本框>id^kw</百度搜索文本框>
+		<百度搜索按钮>id^su</百度搜索按钮>
+		<搜索查询结果>xpath^//*[@id='container']/div[2]/div/div[2]/span</搜索查询结果>
+	</contextLoads>
+	
+	
+	
+	
+</locaotr>

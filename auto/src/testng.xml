@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.ming.auto.TestngListener"></listener><!--监听方法类 -->
+    </listeners>
+    <test verbose="2" preserve-order="true" name="F:/Work/springauto/auto">
+        <classes>
+            <class name="com.ming.auto.AutoApplicationTests">
+                <methods>
+                    <include name="test2"/>
+                    <include name="contextLoads"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

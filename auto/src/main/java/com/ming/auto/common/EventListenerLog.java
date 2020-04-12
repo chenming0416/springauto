@@ -1,4 +1,4 @@
-package common;
+package com.ming.auto.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 public class EventListenerLog implements WebDriverEventListener {
     // slf4j日志记录器
     private static final Logger log = LoggerFactory.getLogger(EventListenerLog.class);
+
 
     @Override
     public void beforeAlertAccept(WebDriver webDriver) {
@@ -125,7 +126,7 @@ public class EventListenerLog implements WebDriverEventListener {
     @Override
     public void onException(Throwable throwable, WebDriver webDriver) {
         log.debug("lister is running");
-        Base.saveScreenshot(webDriver,"exceptionstr");
+      //  Base1.saveScreenshot(webDriver,"exceptionstr");
 }
 
     @Override
