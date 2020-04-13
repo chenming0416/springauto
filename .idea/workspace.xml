@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="screenshot,no-head">
-      <change afterPath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/Base1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/auto/target/" />
@@ -91,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="27">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
@@ -445,7 +436,7 @@
       <workItem from="1586393560855" duration="34013000" />
       <workItem from="1586573225238" duration="6515000" />
       <workItem from="1586654122928" duration="5673000" />
-      <workItem from="1586754214538" duration="2281000" />
+      <workItem from="1586754214538" duration="2574000" />
     </task>
     <task id="LOCAL-00001" summary="idea git test">
       <created>1585133438047</created>
@@ -489,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585984373937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="screenshot,no-head">
+      <created>1586756629198</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586756629198</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -525,13 +523,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129649000" />
+    <option name="totallyTimeSpent" value="129942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.23676248" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +537,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.23125" side_tool="true" weight="0.3184569" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19283277" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30716723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39419794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4129693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -890,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="27">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
