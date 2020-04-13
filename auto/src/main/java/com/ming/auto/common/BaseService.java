@@ -2,9 +2,10 @@ package com.ming.auto.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.springframework.stereotype.Component;
+
 
 public interface  BaseService {
-
 
 	/*
 	* 获得driver接口

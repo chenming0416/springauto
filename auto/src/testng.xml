@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="com.ming.auto.TestngListener"></listener><!--监听方法类 -->
+        <listener class-name="com.ming.auto.TestngListener"></listener><!--监听方法类,监听用例执行结果 -->
     </listeners>
     <test verbose="2" preserve-order="true" name="F:/Work/springauto/auto">
         <classes>

@@ -56,7 +56,6 @@ public class BaseServiceImpl implements BaseService {
 	 * 清除driver对象接口
 	 */
 	public void cleanDriver(){
-	//	webDriver.quit();
 		webDriver = null;
 	}
 
