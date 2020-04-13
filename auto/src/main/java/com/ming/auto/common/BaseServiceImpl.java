@@ -68,17 +68,20 @@ public class BaseServiceImpl implements BaseService {
 		 Runtime runtime = Runtime.getRuntime();
 		  try {
 		  	if (systemtype.contains("win")) {
-				runtime.exec("tskill chrome");
-				runtime.exec("tskill chromedriver");
+		  		synchronized (this) {
+					runtime.exec("tskill chrome");
+					runtime.exec("tskill chromedriver");
+				}
 			}else {
-				runtime.exec("tskill chrome");
-				runtime.exec("tskill chromedriver");
+		  		synchronized (this) {
+					runtime.exec("tskill chrome");
+					runtime.exec("tskill chromedriver");
+				}
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		  setSleep(1);
 	}
 
 	/*
@@ -312,13 +315,6 @@ public class BaseServiceImpl implements BaseService {
 	 * 截图
 	 */
 	public  void saveScreenshot(WebDriver driver, String methodname){
-		String aa = driver.getTitle();
-		if (null == driver) {
-			logger.info("empty");
-			logger.info(aa);
-		}else {
-			logger.info("full");
-		}
  		 File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//利用FileUtils工具类的copyFile()方法保存getScreenshotAs()返回的文件对象。
 
@@ -333,7 +329,6 @@ public class BaseServiceImpl implements BaseService {
 			e.printStackTrace();
 		}
 			 killBrowser(systemtype);
-
 
 	}
 

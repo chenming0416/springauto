@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="" />
+    <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/auto/target/" />
@@ -36,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="21">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,20 +53,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="108">
               <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state relative-caret-position="931">
+              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
               <folding>
                 <element signature="method#getDriver#0;class#BaseServiceImpl#0" />
-                <element signature="method#killBrowser#0;class#BaseServiceImpl#0" />
                 <element signature="method#getSingleDriver#0;class#BaseServiceImpl#0" />
                 <element signature="method#getBy#0;class#BaseServiceImpl#0" />
                 <element signature="method#getLocator#0;class#BaseServiceImpl#0" />
@@ -79,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="322">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
@@ -100,10 +104,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+            <state relative-caret-position="21">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="21" />
+            <state relative-caret-position="81">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -121,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="3240">
               <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
               <folding>
                 <element signature="e#2558#2559#0" expanded="true" />
@@ -180,13 +186,13 @@
         <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/testngListener.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/auto/pom.xml" />
-        <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" />
         <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java" />
-        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java" />
         <option value="$PROJECT_DIR$/auto/src/testng.xml" />
-        <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" />
         <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" />
+        <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" />
+        <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -210,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +239,31 @@
               <item name="auto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +291,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,7 +466,8 @@
       <workItem from="1586393560855" duration="34013000" />
       <workItem from="1586573225238" duration="6515000" />
       <workItem from="1586654122928" duration="5673000" />
-      <workItem from="1586754214538" duration="2574000" />
+      <workItem from="1586754214538" duration="3797000" />
+      <workItem from="1586766706375" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="idea git test">
       <created>1585133438047</created>
@@ -491,44 +522,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 10m 29s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 11m 27s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 15m 01s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 16m 06s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 17m 46s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 18m 54s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 21m 36s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 22m 24s.xml">
-      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 35m 16s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 40m 14s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 33m 50s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 35m 37s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 38m 52s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 42m 49s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 44m 10s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 45m 27s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 49m 43s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 51m 34s.xml">
+      <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129942000" />
+    <option name="totallyTimeSpent" value="132399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.23676248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,7 +568,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.23125" side_tool="true" weight="0.3184569" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19283277" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39419794" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25085324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4129693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,24 +635,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="screenshot,no-head" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/BaseInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#1640#1641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ming/auto/common/BaseService.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/locator.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ming/auto/common/EventListenerLog.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ming/auto/common/BaseServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/Base1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/Base1.java" />
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/AutoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -814,9 +832,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200412132625.png" />
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200413132134.png" />
+    <entry file="file://$PROJECT_DIR$/auto/src/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="3240">
           <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
           <folding>
             <element signature="e#2558#2559#0" expanded="true" />
@@ -825,16 +851,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200413132134.png">
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200413163537.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/test220200413163501.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
+            <element signature="n#!!doc;n#killBrowser#0;n#BaseService#0" />
+            <element signature="n#!!doc;n#getBy#0;n#BaseService#0" />
+            <element signature="n#!!doc;n#setSleep#0;n#BaseService#0" />
+            <element signature="n#!!doc;n#getTestCaseFromExcel#0;n#BaseService#0" />
+            <element signature="n#!!doc;n#saveScreenshot#0;n#BaseService#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="931">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
           <folding>
             <element signature="method#getDriver#0;class#BaseServiceImpl#0" />
-            <element signature="method#killBrowser#0;class#BaseServiceImpl#0" />
             <element signature="method#getSingleDriver#0;class#BaseServiceImpl#0" />
             <element signature="method#getBy#0;class#BaseServiceImpl#0" />
             <element signature="method#getLocator#0;class#BaseServiceImpl#0" />
@@ -847,56 +920,6 @@
             <element signature="method#getTestCaseFromExcel#0;class#BaseServiceImpl#0" />
             <element signature="method#getTestCaseStepData#0;class#BaseServiceImpl#0" />
             <element signature="method#saveScreenshot#0;class#BaseServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
-            <element signature="n#!!doc;n#killBrowser#0;n#BaseService#0" />
-            <element signature="n#!!doc;n#getBy#0;n#BaseService#0" />
-            <element signature="n#!!doc;n#setSleep#0;n#BaseService#0" />
-            <element signature="n#!!doc;n#getTestCaseFromExcel#0;n#BaseService#0" />
-            <element signature="n#!!doc;n#saveScreenshot#0;n#BaseService#0" />
           </folding>
         </state>
       </provider>

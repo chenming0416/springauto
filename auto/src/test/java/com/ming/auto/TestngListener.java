@@ -24,7 +24,7 @@ public class TestngListener implements ITestListener {
     }
 
     public void onTestSuccess(ITestResult result) {
-
+        baseService.killBrowser("windows");
     }
 
     public void onTestFailure(ITestResult result) {
