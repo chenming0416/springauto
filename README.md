@@ -7,13 +7,13 @@ springboot+testng+selenium
 
 1、selenium自动化，使用无头浏览器
 
-2、excel组织用例输入数据
+2、excel组织用例中需要输入文本数据
 
-3、xml组织定位
+3、xml组织用例中每个元素的定位xpath
 
-4、driverlistener监听定位元素异常
+4、driverlistener监听定位元素的xpath异常，例如找不到的情况
 
-5、testnglistener监听用例执行结果，失败后截图保存
+5、testnglistener监听用例执行的结果，失败后截图保存
 
 6、slf4j写日志
 
