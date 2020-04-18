@@ -125,7 +125,7 @@ public class EventListenerLog implements WebDriverEventListener {
 
     @Override
     public void onException(Throwable throwable, WebDriver webDriver) {
-        log.debug("lister is running");
+        log.error("lister is running");
 }
 
     @Override

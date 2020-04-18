@@ -1,0 +1,14 @@
+logging:
+  file:
+    name: E:/logs/spring-boot.log
+  level:
+    com.ming.auto: error
+
+constantstr:
+  locatorfilepath: src/main/resources/locator.xml
+  caseDataExcelpath: src/main/resources/casedata.xlsx
+  chromedriverfilepath: src/main/resources/chromedriver.exe
+  savescreenshotpath: src/main/out/
+  systemtype: windows   # linux,windows
+
+

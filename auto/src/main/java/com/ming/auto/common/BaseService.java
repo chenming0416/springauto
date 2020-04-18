@@ -2,10 +2,20 @@ package com.ming.auto.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-
+@Component
 public interface  BaseService {
+	/*
+	* 写一个测试类
+	 */
+	public void getPathStr();
+
+	/*
+	 * 得到测试时运行的系统类型
+	 */
+	public String getSystemtype();
 
 	/*
 	* 获得driver接口

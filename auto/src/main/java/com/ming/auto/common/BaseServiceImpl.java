@@ -17,7 +17,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,21 +28,48 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-@Service
+//@ConfigurationProperties("constant")
+//@Service
+//@Configuration
+//@ConfigurationProperties(prefix = "pathstr")
+
+@Component
 public class BaseServiceImpl implements BaseService {
 
-	public static final String locatorfilepath = "src/main/resources/locator.xml";
-	public static final String casedatafilepath = "src/main/resources/data.xml";
-	public static final String caseDataExcelpath = "src/main/resources/casedata.xlsx";
-	public static final String chromedriverfilepath = "src/main/resources/chromedriver.exe";
-	public static final String savescreenshotpath = "src/main/out/";
+//	public static final String locatorfilepath = "src/main/resources/locator.xml";
+//	public static final String caseDataExcelpath = "src/main/resources/casedata.xlsx";
+//	public static final String chromedriverfilepath = "src/main/resources/chromedriver.exe";
+//	public static final String savescreenshotpath = "src/main/out/";
+
+	@Value("${constantstr.locatorfilepath}")
+	private String locatorfilepath;
+	@Value("${constantstr.caseDataExcelpath}")
+	private String caseDataExcelpath;
+	@Value("${constantstr.chromedriverfilepath}")
+	private String chromedriverfilepath;
+	@Value("${constantstr.savescreenshotpath}")
+	private String savescreenshotpath;
+	@Value("${constantstr.systemtype}")
+	private String systemtype;
+
+	public String getSystemtype(){
+		return systemtype;
+	}
+
+	public void getPathStr(){
+		logger.error("locatorfilepath:"+locatorfilepath);
+		logger.error("caseDataExcelpath:"+caseDataExcelpath);
+		logger.error("chromedriverfilepath:"+chromedriverfilepath);
+		logger.error("savescreenshotpath:"+savescreenshotpath);
+		logger.error("systemtype:"+systemtype);
+	}
 
 	// slf4j日志记录器
 	private static final Logger logger = LoggerFactory.getLogger(BaseServiceImpl.class);
 	public static WebDriver webDriver = null;
 	// 定义个静态的方法名字符串，用来各个文件之间传递
 	public static String methodnamestr = null;
-	String systemtype = "windows";// linux
+
 
 	/*
 	 * 获得driver接口
@@ -64,7 +93,7 @@ public class BaseServiceImpl implements BaseService {
 	 * 需要传systemtype:windows，linux
 	 */
 	public  void killBrowser(String systemtype){
-		 cleanDriver();
+//		 cleanDriver();
 		 Runtime runtime = Runtime.getRuntime();
 		  try {
 		  	if (systemtype.contains("win")) {
@@ -315,9 +344,9 @@ public class BaseServiceImpl implements BaseService {
 	 * 截图
 	 */
 	public  void saveScreenshot(WebDriver driver, String methodname){
+
  		 File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//利用FileUtils工具类的copyFile()方法保存getScreenshotAs()返回的文件对象。
-
 			 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
 			 // 日期时间转字符串
 			 LocalDateTime time = LocalDateTime.now();
@@ -328,6 +357,7 @@ public class BaseServiceImpl implements BaseService {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		logger.error("测试用例【"+ BaseServiceImpl.methodnamestr+"】失败时的截图是："+savescreenshotpath+methodname+timestr+".png");
 			 killBrowser(systemtype);
 
 	}

@@ -1,5 +1,6 @@
-package com.ming.auto;
+package com.ming.auto.testcase;
 
+import com.ming.auto.AutoApplication;
 import com.ming.auto.common.BaseService;
 import com.ming.auto.common.BaseServiceImpl;
 import org.openqa.selenium.By;
@@ -8,21 +9,29 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.TestExecutionListeners;
+import org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener;
+import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
+import org.springframework.test.context.support.DirtiesContextTestExecutionListener;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
+import org.springframework.test.context.transaction.TransactionalTestExecutionListener;
 import org.testng.Assert;
-import org.testng.IAnnotationTransformer;
 import org.testng.annotations.Test;
 
-
-@SpringBootTest(classes={AutoApplication.class})
-class AutoApplicationTests implements IAnnotationTransformer {
-
-BaseService baseService = new BaseServiceImpl();
+@SpringBootTest(classes = AutoApplication.class )
+class AutoApplicationTests extends AbstractTestNGSpringContextTests {
     private static final Logger logger = LoggerFactory.getLogger(AutoApplicationTests.class.getName());// slf4j记录器
-    // 定义运行的操作系统，用在杀浏览器方法中，是调dos还是调shell
-    String systemtype = "windows";// linux
 
-    @Test(retryAnalyzer = com.ming.auto.RetryAnalyzer.class)
+    @Autowired // 无法得到对象，只好new了一个
+    private BaseService baseService ;
+//    BaseService baseService = new BaseServiceImpl();
+
+    @Test
+    public void testConstant(){
+        baseService.getPathStr();
+    }
+
+    @Test(retryAnalyzer = com.ming.auto.testlistener.RetryAnalyzer.class)
     public void test2(){
         String methodstr = Thread.currentThread().getStackTrace()[1].getMethodName();
         BaseServiceImpl.methodnamestr = methodstr;
@@ -30,7 +39,7 @@ BaseService baseService = new BaseServiceImpl();
 //        Assert.assertFalse(true);
     }
 
-    @Test(retryAnalyzer = com.ming.auto.RetryAnalyzer.class)
+    @Test(retryAnalyzer = com.ming.auto.testlistener.RetryAnalyzer.class)
     public void contextLoads() {
         String methodstr = Thread.currentThread().getStackTrace()[1].getMethodName();
         BaseServiceImpl.methodnamestr = methodstr;
@@ -43,12 +52,9 @@ BaseService baseService = new BaseServiceImpl();
         By seachbuttonby = baseService.getBy(methodstr, "百度搜索按钮");
         driver.findElement(seachbuttonby).click();
         baseService.setSleep(2);
-        logger.debug("this is slf4j message");
         By seachresultby = baseService.getBy(methodstr, "搜索查询结果");
-        String aa = driver.findElement(seachresultby).getText();
-        System.out.println(aa);
+        String resulttext = driver.findElement(seachresultby).getText();
         Assert.assertFalse(true);
-        System.out.println("testCase222 ");
     }
 
 }

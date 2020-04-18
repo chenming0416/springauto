@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1cfcf34-f277-4793-a6bc-8d17d2246e25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auto/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/AutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/AutoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testcase/AutoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/RetryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/TestngListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto/src/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +24,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="185" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,10 +51,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testcase/AutoApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="-27">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/TestngListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#2079#2080#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/RetryAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,43 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto/src/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-              <folding>
-                <element signature="method#getDriver#0;class#BaseServiceImpl#0" />
-                <element signature="method#getSingleDriver#0;class#BaseServiceImpl#0" />
-                <element signature="method#getBy#0;class#BaseServiceImpl#0" />
-                <element signature="method#getLocator#0;class#BaseServiceImpl#0" />
-                <element signature="method#getChildElement#0;class#BaseServiceImpl#0" />
-                <element signature="method#splitlocator#0;class#BaseServiceImpl#0" />
-                <element signature="method#setSleep#0;class#BaseServiceImpl#0" />
-                <element signature="method#getWorkbook#0;class#BaseServiceImpl#0" />
-                <element signature="method#getCaseSheet#0;class#BaseServiceImpl#0" />
-                <element signature="method#getCaseListFromSheet#0;class#BaseServiceImpl#0" />
-                <element signature="method#getTestCaseFromExcel#0;class#BaseServiceImpl#0" />
-                <element signature="method#getTestCaseStepData#0;class#BaseServiceImpl#0" />
-                <element signature="method#saveScreenshot#0;class#BaseServiceImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="31" />
+            <state relative-caret-position="100">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
@@ -102,36 +106,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java">
+        <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="19">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3240">
-              <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
-              <folding>
-                <element signature="e#2558#2559#0" expanded="true" />
-                <element signature="e#2600#2601#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="method#getDriver#0;class#BaseServiceImpl#0" />
+                <element signature="method#getSingleDriver#0;class#BaseServiceImpl#0" />
+                <element signature="method#getBy#0;class#BaseServiceImpl#0" />
+                <element signature="method#getLocator#0;class#BaseServiceImpl#0" />
+                <element signature="method#getChildElement#0;class#BaseServiceImpl#0" />
+                <element signature="method#splitlocator#0;class#BaseServiceImpl#0" />
+                <element signature="method#setSleep#0;class#BaseServiceImpl#0" />
+                <element signature="method#getWorkbook#0;class#BaseServiceImpl#0" />
+                <element signature="method#getCaseSheet#0;class#BaseServiceImpl#0" />
+                <element signature="method#getCaseListFromSheet#0;class#BaseServiceImpl#0" />
+                <element signature="method#getTestCaseFromExcel#0;class#BaseServiceImpl#0" />
               </folding>
             </state>
           </provider>
@@ -156,9 +148,11 @@
       <find>save</find>
       <find>kill</find>
       <find>methodnamestr</find>
-      <find>killBrowser</find>
       <find>getDriver</find>
       <find>saveScreenshot</find>
+      <find>savescreenshotpath</find>
+      <find>killBrowser</find>
+      <find>getSystemtype</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,14 +179,22 @@
         <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/testngListener1.java" />
         <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/testngListener.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/auto/pom.xml" />
         <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/auto/pom.xml" />
         <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java" />
-        <option value="$PROJECT_DIR$/auto/src/testng.xml" />
-        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/GetConstant.java" />
         <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java" />
         <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/RetryAnalyzer.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/AutoApplication.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/auto/src/testng.xml" />
+        <option value="$PROJECT_DIR$/auto/src/test/java/com/ming/auto/test.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testcase/AutoApplicationTests.java" />
         <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java" />
+        <option value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/TestngListener.java" />
       </list>
     </option>
   </component>
@@ -202,6 +204,12 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="36" />
@@ -216,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,6 +272,24 @@
               <item name="auto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="testlistener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springauto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,17 +317,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auto/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -325,13 +355,14 @@
       <recent name="com.ming.auto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Work\springauto\auto\src\main\java\com\ming\auto\testlistener" />
       <recent name="F:\Work\springauto\auto\src\main\resources" />
       <recent name="F:\Work\springauto\auto\src\main" />
       <recent name="F:\Work\springauto\auto\src" />
       <recent name="F:\Work\springauto\auto\src\main\java" />
-      <recent name="F:\Work\springauto\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ming.auto.testcase" />
       <recent name="com.ming.auto" />
       <recent name="common" />
     </key>
@@ -352,7 +383,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.F:/Work/springauto/auto/src/testng.xml">
-    <configuration name="AutoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoApplicationTests111.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
@@ -361,7 +392,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ming.auto" />
-      <option name="MAIN_CLASS_NAME" value="com.ming.auto.AutoApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.ming.auto.AutoApplicationTests111" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -395,16 +426,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCaseTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autoweb" />
+    <configuration name="test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testcase.*" />
+          <option name="PATTERN" value="com.ming.auto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.testCaseTest2" />
+      <option name="PACKAGE_NAME" value="com.ming.auto" />
+      <option name="MAIN_CLASS_NAME" value="com.ming.auto.test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -412,17 +443,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCaseTest2.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autoweb" />
+    <configuration name="test.testConstant" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testcase.*" />
+          <option name="PATTERN" value="com.ming.auto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.testCaseTest2" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.ming.auto" />
+      <option name="MAIN_CLASS_NAME" value="com.ming.auto.test" />
+      <option name="METHOD_NAME" value="testConstant" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -433,10 +464,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.F:/Work/springauto/auto/src/testng.xml" />
-        <item itemvalue="JUnit.AutoApplicationTests.contextLoads" />
+        <item itemvalue="TestNG.test.testConstant" />
+        <item itemvalue="TestNG.test" />
+        <item itemvalue="JUnit.AutoApplicationTests111.contextLoads" />
         <item itemvalue="TestNG.F:/Work/autoweb/testng.xml" />
-        <item itemvalue="TestNG.testCaseTest2.test2" />
-        <item itemvalue="TestNG.testCaseTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +499,9 @@
       <workItem from="1586654122928" duration="5673000" />
       <workItem from="1586754214538" duration="3797000" />
       <workItem from="1586766706375" duration="1234000" />
+      <workItem from="1586858124099" duration="12707000" />
+      <workItem from="1587030967116" duration="29289000" />
+      <workItem from="1587170185552" duration="23712000" />
     </task>
     <task id="LOCAL-00001" summary="idea git test">
       <created>1585133438047</created>
@@ -522,53 +556,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 35m 16s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 12m 32s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 13h 40m 14s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 14m 06s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 33m 50s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 15m 17s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 35m 37s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 17m 08s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 38m 52s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 18m 08s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 42m 49s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 18m 50s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 44m 10s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 19m 11s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 45m 27s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 20m 28s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 49m 43s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 20m 52s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.13 at 16h 51m 34s.xml">
+    <history-entry file="F__Work_springauto_auto_src_testng_xml - 2020.04.18 at 17h 21m 11s.xml">
       <configuration name="F:/Work/springauto/auto/src/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132399000" />
+    <option name="totallyTimeSpent" value="198107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.2632375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.23125" side_tool="true" weight="0.3184569" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32935154" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19283277" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25085324" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32423207" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37030718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4129693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -579,19 +615,20 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.17576791" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.4129693" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.04614221" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="9" weight="0.04614221" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.3184569" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76875" visible="true" weight="0.27912253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -599,8 +636,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.23125" side_tool="true" weight="0.3184569" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.17169811" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.051194537" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.38054606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11262798" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4129693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,15 +649,16 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.17576791" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.04614221" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="9" weight="0.04614221" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,92 +672,22 @@
     <MESSAGE value="screenshot,no-head" />
     <option name="LAST_COMMIT_MESSAGE" value="screenshot,no-head" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springauto$F__Work_springauto_auto_src_testng_xml.ic" NAME="$PROJECT_DIR$/auto/src/testng.xml Coverage Results" MODIFIED="1587111218588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ming/auto/common/BaseService.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/locator.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ming/auto/common/EventListenerLog.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ming/auto/common/BaseServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/Base1.java" />
-    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/AutoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testCaseTest2.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.0.0/dom4j-2.0.0.jar!/org/dom4j/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/main/resources/locator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/testngListener1.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/ITestNGListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/events/WebDriverEventListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/ITestListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,13 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -833,17 +794,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200412132625.png" />
     <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200413132134.png" />
-    <entry file="file://$PROJECT_DIR$/auto/src/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200413163537.png" />
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/test220200413163501.png" />
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/EventListenerLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
-          <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
           <folding>
             <element signature="e#2558#2559#0" expanded="true" />
             <element signature="e#2600#2601#0" expanded="true" />
@@ -851,45 +807,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200413163537.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/main/out/test220200413163501.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/auto/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/auto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="513">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/RetryAnalyzer111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener.java">
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/GetConstant.java" />
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/AutoApplicationTests111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="-82">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/TestngListener111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200418102309.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200418104702.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/resources/data.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/nullcontextLoads20200417183842.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/nullcontextLoads20200417184628.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/nullcontextLoads20200417184938.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/nullcontextLoads20200417185551.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/out/contextLoads20200418111336.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/resources/locator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/AutoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/test/java/com/ming/auto/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/ITestListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testcase/AutoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/RetryAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="100">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#getDriver#0;n#BaseService#0" />
@@ -904,9 +958,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/common/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        <state relative-caret-position="19">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="31" />
           <folding>
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
             <element signature="method#getDriver#0;class#BaseServiceImpl#0" />
             <element signature="method#getSingleDriver#0;class#BaseServiceImpl#0" />
             <element signature="method#getBy#0;class#BaseServiceImpl#0" />
@@ -918,8 +974,16 @@
             <element signature="method#getCaseSheet#0;class#BaseServiceImpl#0" />
             <element signature="method#getCaseListFromSheet#0;class#BaseServiceImpl#0" />
             <element signature="method#getTestCaseFromExcel#0;class#BaseServiceImpl#0" />
-            <element signature="method#getTestCaseStepData#0;class#BaseServiceImpl#0" />
-            <element signature="method#saveScreenshot#0;class#BaseServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto/src/main/java/com/ming/auto/testlistener/TestngListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#2079#2080#0" expanded="true" />
           </folding>
         </state>
       </provider>
