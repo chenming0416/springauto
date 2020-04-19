@@ -7,7 +7,7 @@ springboot+testng+selenium+slf4j（logback）
 
 1、selenium自动化，使用无头浏览器
 
-2、excel组织用例，把需要输入文本数据组织起来
+2、excel组织用例，把需要输入的文本数据组织起来
 
 3、xml组织用例，用来保存每个元素的定位xpath，id等
 
