@@ -6,6 +6,10 @@ import org.slf4j.LoggerFactory;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
+/**
+ * @Author chenming
+ * @create 2020/4/19 9:41
+ */
 
 public class RetryAnalyzer implements IRetryAnalyzer {
     private static final Logger logger = LoggerFactory.getLogger(RetryAnalyzer.class.getName());// slf4j记录器

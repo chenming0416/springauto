@@ -2,8 +2,12 @@ package com.ming.auto.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
+
+/**
+ * @Author chenming
+ * @create 2020/4/19 9:41
+ */
 
 @Component
 public interface  BaseService {

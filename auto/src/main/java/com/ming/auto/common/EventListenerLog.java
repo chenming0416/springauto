@@ -8,6 +8,11 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @Author chenming
+ * @create 2020/4/19 9:41
+ */
+
 public class EventListenerLog implements WebDriverEventListener {
     // slf4j日志记录器
     private static final Logger log = LoggerFactory.getLogger(EventListenerLog.class);
@@ -125,7 +130,7 @@ public class EventListenerLog implements WebDriverEventListener {
 
     @Override
     public void onException(Throwable throwable, WebDriver webDriver) {
-        log.error("lister is running");
+        log.error("没有定位到查找的元素");
 }
 
     @Override

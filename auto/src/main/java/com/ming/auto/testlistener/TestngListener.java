@@ -6,22 +6,23 @@ import com.ming.auto.common.BaseServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import javax.annotation.PostConstruct;
+
+/**
+ * @Author chenming
+ * @create 2020/4/19 9:41
+ */
+
 @Component
-@SpringBootTest(classes = AutoApplication.class)
 public class TestngListener extends AbstractTestNGSpringContextTests implements ITestListener {
     private static final Logger logger = LoggerFactory.getLogger(TestngListener.class.getName());// slf4j记录器
-    @Autowired // 无法得到对象，只好new了一个
+    @Autowired
     private BaseService baseService;
     private static TestngListener testngListener;
     @PostConstruct //通过@PostConstruct实现初始化bean之前进行的操作
@@ -42,7 +43,10 @@ public class TestngListener extends AbstractTestNGSpringContextTests implements 
 
     public void onTestFailure(ITestResult result) {
         if (BaseServiceImpl.webDriver != null) {
+            logger.error(result.getName());
             testngListener.baseService.saveScreenshot(BaseServiceImpl.webDriver, result.getName());
+        }else {
+            logger.error("webdrvier对象为空");
         }
     }
 

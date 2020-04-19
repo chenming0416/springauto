@@ -18,9 +18,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -28,18 +26,13 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-//@ConfigurationProperties("constant")
-//@Service
-//@Configuration
-//@ConfigurationProperties(prefix = "pathstr")
+/**
+ * @Author chenming
+ * @create 2020/4/19 9:41
+ */
 
 @Component
 public class BaseServiceImpl implements BaseService {
-
-//	public static final String locatorfilepath = "src/main/resources/locator.xml";
-//	public static final String caseDataExcelpath = "src/main/resources/casedata.xlsx";
-//	public static final String chromedriverfilepath = "src/main/resources/chromedriver.exe";
-//	public static final String savescreenshotpath = "src/main/out/";
 
 	@Value("${constantstr.locatorfilepath}")
 	private String locatorfilepath;
