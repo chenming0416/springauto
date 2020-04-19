@@ -11,15 +11,15 @@ springboot+testng+selenium+slf4j（logback）
 
 3、xml组织用例，用来保存每个元素的定位xpath，id等
 
-4、driverlistener监听定位元素的异常，例如找不到的情况，日志输出
+4、WebDriverEventListener监听定位元素的异常，例如找不到的情况，日志输出
 
 5、用IRetryAnalyzer来监听用例执行情况，要重试指定次数后才最终置为失败状态。
 
-6、testnglistener监听用例执行的结果，失败后截图保存
+6、ITestListener监听用例执行的结果，失败后截图保存
 
 7、slf4j（logback）写日志
 
-8、testng的xml组织用例，来决定执行哪些用例
+8、testng的testng.xml组织用例，来决定执行哪些测试用例
 
 
 
