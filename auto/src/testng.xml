@@ -4,16 +4,18 @@
     <!--监听方法类,监听用例执行结果 -->
     <listeners>
         <listener class-name="com.ming.auto.testlistener.TestngListener"></listener>
+        <listener class-name="com.ming.auto.testlistener.ExtentTestNGIReporterListener"></listener>
     </listeners >
     <test verbose="2" preserve-order="true" name="F:/Work/springauto/auto">
         <classes>
-            <class name="com.ming.auto.testcase.AutoApplicationTests">
+            <!--class name="com.ming.auto.testcase.AutoApplicationTests">
                 <methods>
                     <include name="testConstant"/>
-                    <!--include name="test2"/>
-                    <include name="contextLoads"/-->
+                    <include name="test2"/>
+                    <include name="contextLoads"/>
                 </methods>
-            </class>
+            </class-->
+            <class name="com.ming.auto.testcase.TestNGHelloWorld"/>
         </classes>
     </test>
 </suite>

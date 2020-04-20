@@ -8,7 +8,7 @@ constantstr:
   locatorfilepath: src/main/resources/locator.xml
   caseDataExcelpath: src/main/resources/casedata.xlsx
   chromedriverfilepath: src/main/resources/chromedriver.exe
-  savescreenshotpath: src/main/out/
+  savescreenshotpath: src/main/out/screenshot/
   systemtype: windows   # linux,windows
 
 

@@ -1,4 +1,4 @@
-package com.ming.auto.common;
+package com.ming.auto.testlistener;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
