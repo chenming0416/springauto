@@ -21,6 +21,8 @@ springboot+testng+selenium+slf4j（logback）
 
 8、testng的testng.xml组织用例，来决定执行哪些测试用例
 
+9、使用第三方的ExtentReports框架生成报告
+
 
 
 
