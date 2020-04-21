@@ -23,6 +23,8 @@ springboot+testng+selenium+slf4j（logback）
 
 9、使用第三方的ExtentReports框架生成报告
 
+10、调试发邮件成功。但没有整理结构，需要调整。
+
 
 
 
