@@ -21,8 +21,8 @@ import java.util.Map;
  */
 public class ExtentTestNGIReporterListener extends AbstractTestNGSpringContextTests implements IReporter {
 
-    private static final String OUTPUT_FOLDER = "src/main/out/report/";
-    private static final String FILE_NAME = "Extent.html";
+    private static final String reportfolder = "src/main/out/report/";
+    private static final String getReportname = "Extent.html";
 
     private ExtentReports extent;
 
@@ -51,9 +51,9 @@ public class ExtentTestNGIReporterListener extends AbstractTestNGSpringContextTe
     }
 
     private void init() {
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(reportfolder + getReportname);
         htmlReporter.config().setDocumentTitle("自动化测试报告");
-        htmlReporter.config().setReportName("API自动化测试报告");
+        htmlReporter.config().setReportName("Web自动化测试报告");
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //图表位置
         //htmlReporter.config().setTheme(Theme.STANDARD);
         htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
