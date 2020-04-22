@@ -11,4 +11,12 @@ constantstr:
   savescreenshotpath: src/main/out/screenshot/
   systemtype: windows   # linux,windows
 
+mail:
+  smtpserver: smtp.163.com
+  smtpport: 465
+  account: chen-ming-163@163.com
+  pwd: DH  # 优先取客户端授权密码，没设置取普通密码
+  addresser: chenming # 发件人昵称
+  targetaddr: chen-ming-163@163.com,265882449@qq.com  # 收件人
+
 

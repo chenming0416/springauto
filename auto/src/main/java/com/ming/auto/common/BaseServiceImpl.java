@@ -18,8 +18,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+
+import javax.mail.NoSuchProviderException;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.MimeMessage;
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -35,6 +41,20 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class BaseServiceImpl implements BaseService {
 
+	@Autowired
+	private SendMailsUtil sendMailsUtil;
+	@Value("${mail.smtpserver}")
+	private String smtpserver;
+	@Value("${mail.smtpport}")
+	private String smtpport;
+	@Value("${mail.account}")
+	private String account;
+	@Value("${mail.pwd}")
+	private String pwd;
+	@Value("${mail.addresser}")
+	private String addresser;
+	@Value("${mail.targetaddr}")
+	private String targetaddr;
 	@Value("${constantstr.locatorfilepath}")
 	private String locatorfilepath;
 	@Value("${constantstr.caseDataExcelpath}")
@@ -355,5 +375,44 @@ public class BaseServiceImpl implements BaseService {
 			 killBrowser(systemtype);
 
 	}
+
+	/*
+	 * 发邮件
+	 * 参数需要确认
+	 */
+	public  void sendMail(String mailtitle,String mailcontent)  {
+		Properties props = new Properties();
+		props.setProperty("mail.transport.protocol", "smtp"); // 使用的协议（JavaMail规范要求）
+		props.setProperty("mail.smtp.host", smtpserver); // 发件人的邮箱的 SMTP 服务器地址
+		props.setProperty("mail.smtp.port", smtpport);
+		props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+		props.setProperty("mail.smtp.auth", "true"); // 需要请求认证
+		props.setProperty("mail.smtp.ssl.enable", "true");// 开启ssl
+
+		try {
+			// 根据邮件配置创建会话，注意session别导错包
+			Session session = Session.getDefaultInstance(props);
+			// 开启debug模式，可以看到更多详细的输入日志
+			session.setDebug(true);
+			//创建邮件
+			MimeMessage message = null;
+			message = sendMailsUtil.createEmail(session,mailtitle,mailcontent,targetaddr,account,addresser);
+
+			//获取传输通道
+			Transport transport = null;
+			transport = session.getTransport();
+
+			transport.connect(smtpserver,account, pwd);
+			//连接，并发送邮件
+			transport.sendMessage(message, message.getAllRecipients());
+			transport.close();
+		} catch (Exception e) {
+			logger.error("发邮件报异常了");
+			e.printStackTrace();
+		}
+
+
+	}
+
 
 }

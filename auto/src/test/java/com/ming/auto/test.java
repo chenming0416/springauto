@@ -17,6 +17,11 @@ public class test  extends AbstractTestNGSpringContextTests {
 
     @Test
     public void testConstant(){
-        baseService.getPathStr();
+//        baseService.getPathStr();
+        try {
+            baseService.sendMail("我是陈明","写点邮件内容");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

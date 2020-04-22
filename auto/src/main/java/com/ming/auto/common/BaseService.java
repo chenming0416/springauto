@@ -58,4 +58,10 @@ public interface  BaseService {
 	 * 截图
 	 */
 	public  void saveScreenshot(WebDriver driver, String methodname);
+
+	/*
+	 * 发邮件
+	 * 参数需要确认
+	 */
+	public  void sendMail(String mailtitle,String mailcontent) ;
 }
